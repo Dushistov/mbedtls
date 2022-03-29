@@ -32,6 +32,7 @@ cmake_policy(SET CMP0011 NEW)
 # for CMake versions >= 3.18.3 otherwise a deprecated warning is generated. The OLD policy setting
 # is deprecated and will be removed in future versions.
 cmake_policy(SET CMP0012 NEW)
+cmake_policy(SET CMP0063 NEW)
 
 if(TEST_CPP)
     project("mbed TLS" C CXX)
